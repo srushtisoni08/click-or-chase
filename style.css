@@ -1,0 +1,80 @@
+
+body{
+
+    background: radial-gradient(circle, rgb(255, 235, 255), #ae51b8);
+}
+button{
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    color: rgb(76, 0, 76);
+    background-color: rgb(208, 255, 255);
+    font-family: cursive;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    
+}
+#buttons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+a{
+    cursor:none;
+}
+h1{
+    color: rgb(104, 0, 101);
+    text-align: center;
+    padding-top: 20%;
+}
+.background-words {
+    color: rgba(255, 255, 255, 0.2); 
+    font-size: 50px;
+    font-weight: bold;
+    z-index: 0;
+    pointer-events: none;
+    
+}
+#w1{
+    transform: rotate(-20deg);
+    position: fixed;
+    padding-top: 15%;
+}
+#w2{
+    transform: rotate(-10deg);
+    position: fixed;
+    padding-top: 35%;
+    padding-left: 85%;
+}
+#w3{
+    position: fixed;   
+    padding-left: 70%;
+    transform: rotate(5deg);
+}
+#w4{
+    position: fixed;
+    padding-left: 30%;
+    padding-top: 40%;
+}
+#w5{
+    position: fixed;
+    padding-left: 47%;
+    padding-top: 13%;
+}
+#w6{
+    position: fixed;
+    padding-top: 33%;
+    padding-left: 11%;
+}
+#w7{
+    position: fixed;
+    padding-left: 3%;
+    padding-top: 1%;
+}
+#w8{
+    position: fixed;
+    padding-left: 75%;
+    padding-top: 20%;
+    font-size: 40px;
+}

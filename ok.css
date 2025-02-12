@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+#text{
+    align-content: center; 
+    background-color: rgb(76, 0, 76);
+    padding: 50px; 
+    animation-name: slideup;
+    animation-duration: 2s;
+}
+body{
+    min-height: 100%;
+    background-color:  #ae51b8;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(255, 255, 255); 
+    background: linear-gradient(to bottom right, #762080, #fbd9ff);
+    background-size: 40px 40px;
+    background-blend-mode: overlay;
+}
+@keyframes slideup{
+    from{transform: translateY(-50%);}
+}
