@@ -5,7 +5,7 @@ function moveButton(){
     if(count > 10){
         window.location.href = "ok.html";
     }
-    let x = Math.random() * (window.innerWidth - 100);
+    let x = Math.random() * (window.innerWidth - 150);
     let y = Math.random() * (window.innerHeight - 50);
     b.style.position = "absolute";
     b.style.left = `${x}px`;
